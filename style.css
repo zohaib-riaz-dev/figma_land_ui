@@ -14,8 +14,6 @@ background-size: 100% 100%;
 margin-bottom: -15em;
 }
 
-
-
 .navbar {
   background-color: transparent;
 }
@@ -34,6 +32,8 @@ margin-bottom: -15em;
 .card {
   margin-top: 30px;
   padding: 15px;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card-img-top{
 
@@ -58,8 +58,16 @@ margin-bottom: -15em;
   color: white;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1024px){
+  .content-text{
+    margin-top:80px;
+  }
+  .hero-img{
+    margin-top:auto!important;
+  }
+}
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .right-side {
     text-align: center;
   }
@@ -90,6 +98,93 @@ margin-bottom: -15em;
   margin-top: -8rem;
   }
 
+}
+
+@media (max-width: 768px) {
+  .main-h{
+  font-size: 38px;
+  font-weight: 800;
+  margin-top: 20px;
+  color: white;
+  }
+}
+@media (min-width: 390px) {
+  .mybtn_login{
+    padding: 1.3rem 3rem;
+    border-radius: 8px;
+    background-color: white;
+    color: #2087FE;
+    font-weight: 700;
+    padding: 0.7rem 2rem;
+    margin-bottom: -1rem;
+    background-color: white;
+    border: none;
+  }
+}
+
+@media (max-width: 390px) {
+  .mybtn_login{
+    width: 92px;
+    padding: 1.3rem 3rem;
+    border-radius: 8px;
+    background-color: white;
+    color: #2087FE;
+    font-weight: 700;
+    padding: 0.7rem 1rem;
+    margin-bottom: -1rem;
+    background-color: white;
+    border: none;
+  }
+
+  .hero-img{
+    margin-top: -7rem;
+    }
+}
+
+@media (max-width: 375px) {
+  .mybtn_login{
+    width: 92px;
+    padding: 1.3rem 3rem;
+    border-radius: 8px;
+    background-color: white;
+    color: #2087FE;
+    font-weight: 700;
+    padding: 0.7rem 1rem;
+    margin-bottom: -1rem;
+    background-color: white;
+    border: none;
+  }
+
+  .hero-img{
+    margin-top: -1rem;
+    }
+
+  .custom-section h1{
+    font-size: 2rem;
+  }
+
+  .custom-section p{
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .mybtn_login{
+    width: 78px;
+    padding: 1.3rem 3rem;
+    border-radius: 8px;
+    background-color: white;
+    color: #2087FE;
+    font-weight: 700;
+    padding: 0.7rem 1rem;
+    margin-bottom: -1rem;
+    background-color: white;
+    border: none;
+  }
+
+  .hero-img{
+    margin-top: -1rem;
+    }
 }
 
 @media (min-width: 767px) {
@@ -197,5 +292,16 @@ width:50%
 
   .right-side {
     order: 1;
+  }
+
+  ul{
+    background-color: #737373;
+    height: 320px;
+    align-items: center;
+  }
+
+  .subscribe-field{
+    width: 100%;
+    text-align: center;
   }
 }
